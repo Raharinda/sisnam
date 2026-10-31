@@ -35,8 +35,18 @@
       ]
     ],
     "experiments": {
-      "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "1a98a5c2-f5da-47ce-8d80-e2d183c8bccd"
+      }
+    },
+    "owner": "raharinda1"
   }
 }
